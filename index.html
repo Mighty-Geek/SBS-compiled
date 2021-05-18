@@ -10,26 +10,25 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./public/css/style.css">
-</head>
-
-<div id="particles-js">
-    <div class="wrapper">
-        <img class="logo" src="./public/img/title-2.JPG">
-        <a href="./public/page-2.html" class="btn">
-            Project <i class="fas fa-arrow-circle-right"></i>
-        </a>
-    </div>
-</div>
-<script src="node_modules/particles.js/particles.js"></script>
-
-<script>
-    particlesJS.load('particles-js', 'particles.json', function () {
-        console.log('callback - particles.js config loaded');
-    });
-</script>
-
 
 <body>
+    </head>
+
+    <div id="particles-js">
+        <div class="wrapper">
+            <img class="logo" src="./public/img/title-2.JPG">
+            <a href="./public/page-2.html" class="btn">
+                Project <i class="fas fa-arrow-circle-right"></i>
+            </a>
+        </div>
+    </div>
+    <script src="./node_modules/particles.js/particles.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', './particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 
 </body>
 
